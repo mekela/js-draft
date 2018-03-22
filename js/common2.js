@@ -44,10 +44,10 @@ class Circle extends Rect{
 
 class Triagle extends Rect{
    draw(){
-   	ctx.fillRect(this.x, this.y, this.size, this.size); 
-   	ctx.fillStyle="#000000";
+    ctx.fillRect(this.x, this.y, this.size, this.size); 
+    ctx.fillStyle="#000000";
 
-    //ctx.rotate(45 * Math.PI / 180);
+    ctx.rotate(45 * Math.PI / 180);
   }  
 }
 
